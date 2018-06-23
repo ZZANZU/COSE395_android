@@ -1,0 +1,4 @@
+#Sat Jun 23 17:20:07 KST 2018
+base.0=/Users/zzanzu/Downloads/Smarting_Android_App-master/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex

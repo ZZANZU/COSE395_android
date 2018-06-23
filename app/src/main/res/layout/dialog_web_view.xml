@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_height="320dp"
+    android:gravity="center"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/doorbell_open_btn"
+            android:layout_width="112dp"
+            android:layout_height="44dp"
+            android:background="@drawable/rounded_corner_open_btn"
+            android:layout_gravity="center"
+            android:text="OPEN"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="onClickOpen"
+            />
+
+    </FrameLayout>
+
+
+</LinearLayout>
